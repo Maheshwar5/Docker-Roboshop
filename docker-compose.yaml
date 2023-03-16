@@ -16,3 +16,9 @@ services:
     container_name: web
     depends_on:
     - catalogue  
+  user:
+    image: user:v1
+    container_name: user
+    depends_on:
+    - mongodb
+    - redis  
