@@ -15,7 +15,7 @@ services:
     image: web:v1
     container_name: web
     ports: 
-    - "80:80"
+    - 8000:8080
     depends_on:
     - catalogue  
   redis:
