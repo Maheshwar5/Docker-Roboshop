@@ -42,7 +42,7 @@ services:
     - mysql
     - shipping
   mongodb:
-    image: mongodb:v1
+    image: mongodb:v1  # you can refer new image from hub: rmahesh9/mongodb:v1
     container_name: mongodb
     volumes:
     - mongodb:/data/db
