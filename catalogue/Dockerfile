@@ -18,4 +18,5 @@ COPY server.js /opt/server/
 
 # Instead of CMD you can use ENTRYPOINT also. You can use any of them.
 CMD ["node", "server.js"]
+ENTRYPOINT ["node", "server.js"]
 
